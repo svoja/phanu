@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #fff; /* Background color for the body (white) */
+    border: 0px solid #000; /* Add a black border to mimic the iPhone border */
+    border-radius: 0px; /* Apply border radius to round the corners */
+}
+
+.centered-content {
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+.frame {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Background color for the frame (semi-transparent black) */
+    border-radius: 10px;
+}
+
+.frame h1 {
+    color: #fff; /* Text color inside the frame (white) */
+    border: 2px solid #fff; /* Add a white border around the weather information */
+}
+
